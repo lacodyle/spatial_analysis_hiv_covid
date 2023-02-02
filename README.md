@@ -1,3 +1,9 @@
 # Spatial Analysis of the Intersection of HIV and COVID-19 Epidemics in California
 <i> Individual Analysis Project for GEO448: Spatial Data Science at DePaul University </i><br>
 <i>Highlights: Spatial Join, Spatial Clustering, Spatial Outlier Detection, Agglomerative Clustering </i><br>
+
+Analysis explores the spatial relationship between the HIV and COVID-19 in California at the county level. The analysis focuses on analyzing new infection rates between the two epidemics and its impact on ethnic and minority groups. Through spatial clustering and outlier detection techniques, specific areas in California were determined to be more vulnerable to HIV and/or COVID-19. LISA interactive map was created to show significant clusters affected by both infection rates and social vulnerabilities. Agglomerative clustering was performed showing areas affected by higher social vlunerability related to ethnic and minority status.
+
+HIV Data: 3 datasets were used for the analysis which came from AIDsVu, a partnership between Gilead Sciences Inc., and the Center for AIDS Research at Emory University. The <a href="https://aidsvu.org/resources/#/datasets">datasets</a> include: 2020 National New Infections, 2020 National Prevalance, and 2020 National PrEP. 
+COVID Data: 2 datasets were used for the analysis which came from the California Department of Public Health Open Data Database. The datasets include: <a href="https://data.ca.gov/dataset/covid-19-time-series-metrics-by-county-and-state">Statewide COVID-19 Cases Deaths Tests</a> and <a href="https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data">COVID-19 Vaccine Progress</a>.
+Shapefiles: <a href="https://www.atsdr.cdc.gov/placeandhealth/svi/index.html">2020 Social Vulnerability Index (SVI)</a> for California by county comes from the CDC containing census tracts and spatial geometry data. 
